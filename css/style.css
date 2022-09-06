@@ -16,7 +16,6 @@ html{
     justify-content: center;
     align-items: center;
 
-
     /* debug */
     min-height: 100px;
     /* border: 2px solid black; */
@@ -88,6 +87,19 @@ html{
     align-items: flex-start;
 }
 
+path{
+    background-color: #f6f6f6;
+}
+.wave{
+    margin-top: -10px;
+    margin-bottom: -10px;
+    fill-opacity: inherit;
+
+}
+
+.rotate{
+    transform: rotate(180deg);
+}
 /* header */
 
 .jumbotron{
