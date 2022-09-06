@@ -59,6 +59,7 @@ html{
     border-radius: 2rem;
     text-align: center;
     color: black; 
+    margin-left: 1em;
 }
 
 .grey{
@@ -185,7 +186,7 @@ path{
 
 .white{
     background-color: white;
-    vertical-align: center;
+    /* vertical-align: center; */
 }
 
 .nero{
@@ -203,9 +204,9 @@ path{
     margin-bottom: 3em;
 }
 
-.debug{
+/* .debug{
     min-height: 23em;
-}
+} */
 
 .image{
     width: 60%;
@@ -273,7 +274,6 @@ path{
 .colonna{
     width: calc(100% / 4);
     margin-top: 3rem;
-    
     /* debug */
     /* background-color:#20B2AA; */
     /* border: 1px dashed white; */
