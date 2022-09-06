@@ -63,7 +63,8 @@ html{
 }
 
 .grey{
-    background-color:#D3D3D3;
+    /* background-color:#D3D3D3; */
+    background-color: #f6f6f6;
 }
 
 
@@ -91,6 +92,7 @@ html{
     flex-direction: column;
     background-image: url(../img/jumbo.png);
     background-size: cover;
+    background-position: center;
 }
 .logo{
     width: 20%;
@@ -224,12 +226,32 @@ li{
 }
 .flex-green{
     width: 70%;
-    height: 50rem;
-    background-color:#228B22;
     margin-top: 3em;
     margin-bottom: 3em;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* debug */
+    /* background-color:#228B22;
+    height: 50rem; */
 }
 
+.testo-top{
+    width: 60%;
+}
+
+.cta{
+    margin-top: 5rem;
+    
+}
+
+.stelle{
+    background-image: url(../img/stars.svg);
+    
+    
+}
 /* fotter */
 
 .colonna{
