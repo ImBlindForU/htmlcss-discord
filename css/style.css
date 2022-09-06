@@ -347,6 +347,6 @@ path{
 
 }
 
-.change{
+footer .colonna:last-child{
     width: 9rem;
 }
