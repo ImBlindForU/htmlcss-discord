@@ -70,15 +70,17 @@ html{
 
 .black{
     background-color: #23272A;
-    border-bottom: 1px solid white;
+    /* border-bottom: 1px solid white; */
 }
 
 .red{
     width: 30%;
-    border: 1px dashed black;
+    margin-top: 3rem;
 
     /* debug */
-    background-color:#F08080;
+    /* background-color:#F08080;
+    border: 1px dashed black; */
+
 }
 
 .centre{
@@ -98,12 +100,12 @@ html{
     width: 20%;
 }
 
-ul {
+.central-section ul {
     list-style: none;
     text-align: center;
 }
 
-li{
+.central-section li{
     display: inline-block;
     margin-right: 3em;
 }
@@ -249,44 +251,86 @@ li{
 
 .stelle{
     background-image: url(../img/stars.svg);
-    /* background-size: cover;
+    background-size: contain;
     background-position: center;
-     */
+    padding: 3rem;
+    background-repeat: no-repeat;
 }
 /* fotter */
 
 .colonna{
     width: calc(100% / 4);
-    border: 1px dashed white;
-
+    margin-top: 3rem;
+    
     /* debug */
-    background-color:#20B2AA;
+    /* background-color:#20B2AA; */
+    /* border: 1px dashed white; */
 }
 
 .flex-footer ul{
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
 
 
 }
 .acquamarina{
     justify-content: space-between;
-    background-color: #7FFFD4;
     padding-top: 10px;
     padding-bottom: 10px;
     margin-top: 1em;
     margin-bottom: 0;
+    border-top: 1px solid #7289da;
+    /* debug */
+    /* background-color: #7FFFD4; */
 }
 
-.bottom{
-    background-color: #FFB6C1;
-    border: 1px dashed black;
-    padding: 0.2em;
-}
 
 .mtt{
     margin-top: 0.5em;
     margin-bottom: 1em;
 }
+.colonna h4{
+    color: #7289da;
+}
+.colonna ul li{
+    list-style: none;
+    margin-top: 1em;
+    color: white;
+    vertical-align:middle;  
+}
+
+.red h3{
+    color: #7289da ;
+}
+
+.red ul{
+    list-style: none;
+    margin-top: 1em;
+    color: white;
+}
+
+.red ul li img{
+    width: 10%;
+    vertical-align: middle;
+
+}
+
+.red ul li{
+    margin-top: 1em;
+}
+
+.red ul li i{
+    margin-right: 1em;
+}
+
+.fgiu{
+    vertical-align: middle;
+}
 
 
+.bviola{
+    background-color: #7289da;
+    color: white;
+    vertical-align: middle;
+
+}
