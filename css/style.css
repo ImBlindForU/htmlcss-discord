@@ -136,7 +136,7 @@ li{
 .flex-pink{
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 60%;
     margin-top: 3em;
     margin-bottom: 10rem;
     text-align: center;
@@ -249,8 +249,9 @@ li{
 
 .stelle{
     background-image: url(../img/stars.svg);
-    
-    
+    /* background-size: cover;
+    background-position: center;
+     */
 }
 /* fotter */
 
@@ -262,6 +263,12 @@ li{
     background-color:#20B2AA;
 }
 
+.flex-footer ul{
+    display: flex;
+    flex-direction: column;
+
+
+}
 .acquamarina{
     justify-content: space-between;
     background-color: #7FFFD4;
